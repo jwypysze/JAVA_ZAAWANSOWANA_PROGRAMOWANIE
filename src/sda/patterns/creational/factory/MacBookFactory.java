@@ -3,7 +3,7 @@ package sda.patterns.creational.factory;
 public class MacBookFactory {
     public static MacBook getMac(String type, int memory, int disc, int screenSize) {
 
-        if("Air".equalsIgnoreCase(type)) {
+        if ("Air".equalsIgnoreCase(type)) {
             System.out.println("Zlecenie na Maca Air");
             return new MacBookAir(memory, disc, screenSize);
         } else if ("Pro".equalsIgnoreCase(type)) {
