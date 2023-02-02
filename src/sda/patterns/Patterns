@@ -6,5 +6,7 @@ dużą ilość wzorców
 
 Wzorce dzielimy na:
  - kreacyjne - omawiające sposoby tworzenia obiektów
+   --singleton(y) - do tworzenia dokładnie jednego obiektu dla klasy
+   --fabryki - do tworzenia obiektów z jednej rodziny
  - strukturalne
  - behawioralne
