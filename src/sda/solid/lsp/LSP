@@ -1,0 +1,7 @@
+LSP czyli Liskov Swap Principle
+
+czyli zasada podstawień Barbary Liskov
+
+która mowi że jeśli mamy ogólny typ podstawowy
+i kilka jego typów pochodnych to wywołanie metody z typu podstawowego
+na typie pochodnym ma za każdym razem zadziałać
