@@ -11,5 +11,7 @@ Wzorce dzielimy na:
    --fabryki abstrakcyjne - gdzie dla każdego obiektu z rodziny mamy osobną fabrykę i jeden punkt wejścia do fabryk
    --builder - gdy mamy część (albo ani jednego) parametrów wymaganych, a część opcjonalną
    --prototype - gdy mamy wzorzec wzorcowy i "odkopiowujemy" go na nowo do bieżącego użycia
- - strukturalne
+ - strukturalne - definiują powiązania między obiektami
+   -- facade (fasada) - umożliwia wystawienie spójnego, łatwego do zastosowania interfejsu
+
  - behawioralne
