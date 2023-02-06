@@ -12,6 +12,8 @@ Wzorce dzielimy na:
    --builder - gdy mamy część (albo ani jednego) parametrów wymaganych, a część opcjonalną
    --prototype - gdy mamy wzorzec wzorcowy i "odkopiowujemy" go na nowo do bieżącego użycia
  - strukturalne - definiują powiązania między obiektami
-   -- facade (fasada) - umożliwia wystawienie spójnego, łatwego do zastosowania interfejsu
-
+   --facade (fasada) - umożliwia wystawienie spójnego, łatwego do zastosowania interfejsu
+   --proxy - służy jako warstwa bezpieczeństwa albo warstwa cache - "pamięci podręcznej"
+   --flyweight - dzięki jego zastosowaniu możemy konstruować mniej obiektów i będą one mniejsze
+   --
  - behawioralne
