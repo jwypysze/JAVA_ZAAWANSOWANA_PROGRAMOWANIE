@@ -15,5 +15,5 @@ Wzorce dzielimy na:
    --facade (fasada) - umożliwia wystawienie spójnego, łatwego do zastosowania interfejsu
    --proxy - służy jako warstwa bezpieczeństwa albo warstwa cache - "pamięci podręcznej"
    --flyweight - dzięki jego zastosowaniu możemy konstruować mniej obiektów i będą one mniejsze
-   --
+   --decorator - dokłąda dodatkowe funkcjonalności do bazowego obiektu, otrzymujemy nadal obiekt tego samego typu
  - behawioralne
