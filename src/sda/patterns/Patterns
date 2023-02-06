@@ -16,4 +16,5 @@ Wzorce dzielimy na:
    --proxy - służy jako warstwa bezpieczeństwa albo warstwa cache - "pamięci podręcznej"
    --flyweight - dzięki jego zastosowaniu możemy konstruować mniej obiektów i będą one mniejsze
    --decorator - dokłąda dodatkowe funkcjonalności do bazowego obiektu, otrzymujemy nadal obiekt tego samego typu
+   --composite - pozwala w ten sam sposób traktować obiekty proste i złożone, wykonując te same operacje na nich
  - behawioralne
