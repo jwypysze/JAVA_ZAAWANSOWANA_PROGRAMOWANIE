@@ -1,4 +1,4 @@
-package sda.patterns.behavioral;
+package sda.patterns.behavioral.templateMethod;
 
 public abstract class NewsProvider {
     private String message;

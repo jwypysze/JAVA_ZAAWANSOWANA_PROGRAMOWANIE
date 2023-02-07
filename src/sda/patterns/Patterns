@@ -20,3 +20,5 @@ Wzorce dzielimy na:
  - behawioralne - dokłądają nowe możliwości obiektom, sprawiając że obiekty wyglądają jak coś innego, z większymi możliwościami
    --templateMethod - definiuje algorytm wykonywania jakiegoś zadania, część kroków pozostawia do definicji
      programiście "końcowemu", a część, oraz kolejność wykonywania kroków jest odgórnie ustalona
+   --strategy (policy) - strategia bądź polityka - nazwy wymienne - określają jak zaimplementować kilka różnych algorytmów
+     realizujących podobne zadanie
