@@ -22,3 +22,5 @@ Wzorce dzielimy na:
      programiście "końcowemu", a część, oraz kolejność wykonywania kroków jest odgórnie ustalona
    --strategy (policy) - strategia bądź polityka - nazwy wymienne - określają jak zaimplementować kilka różnych algorytmów
      realizujących podobne zadanie
+   --command - pozwala "obudować" zadania jakie wykonuje klasa swoimi metodami o dodatkowe możliwości (np. logowanie,
+     trzymanie historii operacji, ...)
