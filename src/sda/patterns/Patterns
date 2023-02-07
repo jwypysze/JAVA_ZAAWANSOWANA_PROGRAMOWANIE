@@ -26,3 +26,5 @@ Wzorce dzielimy na:
      trzymanie historii operacji, ...)
    --chainOfRespoisibility - wzorzec pozwalający na rozłożenie skomplikowanej weryfikacji na listę małych, podobnych w budowie kroków
    --memento - służy do zapamiętania obrazu (stanu) innego obiektu
+   --visitor - polega na wyposażeniu różnych obiektów w taką samą funkcjonalność na potrzeby operacji która musi być wykonana podobinie
+     dla wszystkich tych obiektów
