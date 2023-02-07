@@ -24,3 +24,4 @@ Wzorce dzielimy na:
      realizujących podobne zadanie
    --command - pozwala "obudować" zadania jakie wykonuje klasa swoimi metodami o dodatkowe możliwości (np. logowanie,
      trzymanie historii operacji, ...)
+   --chainOfRespoisibility - wzorzec pozwalający na rozłożenie skomplikowanej weryfikacji na listę małych, podobnych w budowie kroków
