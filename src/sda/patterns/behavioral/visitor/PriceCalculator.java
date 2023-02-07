@@ -20,6 +20,7 @@ public class PriceCalculator implements Calculator {
         System.out.println("Fridge " + fridge.getName() + " S/N: " + fridge.getSerialNumber() + " price: " + fridge.getValue());
         if(fridge.getValue() > 600) {
             System.out.println("Discount available!");
+            System.out.println("Price after discount: " + (fridge.getValue() - 50));
             return fridge.getValue() - 50;
         }
         return fridge.getValue();
