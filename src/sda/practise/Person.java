@@ -74,9 +74,13 @@ public class Person implements Comparable<Person> {
 
     public String personInfoWithChildren() {
         String childrenConcat = "";
-        for (Person child : children) {
-            childrenConcat += child.personInfo(false) + "\n\t";
-        }
+//        for (Person child : children) {
+//            childrenConcat += child.personInfo(false) + "\n\t";
+//        }
+
+        childrenConcat = children.stream()
+                .map(child -> child.personInfo(false))
+                .collect(Collectors.joining("\n\t"));
 
         return personInfo(true) + "\n\t" + childrenConcat;
     }
