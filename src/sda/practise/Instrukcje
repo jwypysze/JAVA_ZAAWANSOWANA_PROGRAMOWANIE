@@ -34,3 +34,19 @@ wyświetlcie listę wszystkich zdeklarowanych osób, posortowaną po nazwisku i 
 do osób które mają dzieci dodajcie te dzieci
 zróbcie listę wszystkich osób
 wypiszcie dla tej listy wszystkie dzieci
+
+----
+Zróbcie strukturę klas:
+Animal
+Bird, Cat, Fish
+Eagle, PussyCat, Salmon
+
+W klasie Animal metody
+move
+sound
+z domyślnymi komunikatami (np Zwierzę porusza się, Zwierzę wydaje dźwięk)
+
+w klasie Fish na pewno podmiana metody sound, żeby nie wydawała dźwięku
+w pozostałych klasach dowolność - możecie zrobić bardziej specyficzne postaci metod
+
+Które klasy zrobicie jako abstract? Jedną czy więcej?

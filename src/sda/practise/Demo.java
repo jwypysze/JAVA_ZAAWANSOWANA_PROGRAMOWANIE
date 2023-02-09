@@ -109,6 +109,8 @@ public class Demo {
 
         System.out.println("\n Wygenerowanie haszmapy z listy");
         Map<String, Person> peopleByName = allPeople.stream()
+                //peek - przyjmuje to co jest na wejściu i to samo oddaje na wyjściu
+                //umożliwia wykonanie akcji która może ale nie musi mieć wpływu na przebieg programu
                 .peek(each -> System.out.println("Peek in between : " + each.personInfo(false)))
                 //Function.identity() mówi żeby wykorzystac cały obiekt na którym pracujemy,
                 //w tym przypadku jest to jeden z obiektów klasy Person
