@@ -50,3 +50,13 @@ w klasie Fish na pewno podmiana metody sound, żeby nie wydawała dźwięku
 w pozostałych klasach dowolność - możecie zrobić bardziej specyficzne postaci metod
 
 Które klasy zrobicie jako abstract? Jedną czy więcej?
+
+--
+w każdej z klas końcowych dodajcie pole "name"
+a metodę getName() od samej góry struktury tak, żeby
+można było name użyć w metodach sound() i move()
+
+--
+zróbcie nową klasę z metodą main dla zwierzogrodu
+dodajcie kilka zwierząt
+zapiszcie je do pliku tekstowego
