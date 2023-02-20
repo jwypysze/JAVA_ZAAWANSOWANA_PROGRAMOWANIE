@@ -1,4 +1,4 @@
-package sda.practise;
+package sda.practise.person;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,9 +1,12 @@
-package sda.practise;
+package sda.practise.person;
+
+import sda.practise.person.Gender;
+import sda.practise.person.Person;
+import sda.practise.person.PersonByAgeComparator;
 
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
-import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 

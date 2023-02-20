@@ -1,4 +1,4 @@
-package sda.practise;
+package sda.practise.person;
 
 public enum Gender {
     MALE("m", "male", "mężczyzna"),
