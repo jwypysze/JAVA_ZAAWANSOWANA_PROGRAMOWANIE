@@ -60,3 +60,20 @@ można było name użyć w metodach sound() i move()
 zróbcie nową klasę z metodą main dla zwierzogrodu
 dodajcie kilka zwierząt
 zapiszcie je do pliku tekstowego
+
+--
+przenieście klasy związane z osobą do podpakietu "person"
+
+dodajcie klasę reprezentującą Pojazd i co najmniej wywodzącą się z niej klasę Samochód
+
+Samochód ma mieć markę, model, rocznik, informacje o skrzyni biegów, ilości siedzeń, paliwie, pojemności silnika.
+
+Dodajcie klasę Wypożyczalnia. Ma ona przechowywać samochody, te wypożyczone i dostępne
+Dodajcie możliwość wypożyczania samochodu - od - do, za ile. Wypożyczający ma być z klasy Person.
+Dodajcie ewidencję wypożyczonych aut, z dodatkową informacją o ewentualnych opóźnieniach
+
+Napiszcie testy :)
+ - człowiek wypożycza auto
+ - człowiek jest za młody na wypożyczenie auta
+ - wypożyczone auto oddane w terminie
+ - wypożyczone auto oddane po terminie
