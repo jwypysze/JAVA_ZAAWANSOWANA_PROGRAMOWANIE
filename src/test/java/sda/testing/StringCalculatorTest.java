@@ -3,8 +3,7 @@ package sda.testing;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.*;
 
 class StringCalculatorTest {
 
@@ -80,12 +79,14 @@ class StringCalculatorTest {
     //Przekazanie liczby większej lub równej 1000 powoduje rzucenie wyjątku: Too Big Number
     @Test
     void shouldRaiseExceptionOnNumberOver3Digits() {
-        String entry = "1000";
+        String entry = "3,8,1000,22";
         try {
             int result = calculator.add(entry);
         } catch (Exception e) {
             assertEquals("Too Big Number", e.getMessage());
+            return;
         }
+        fail();
     }
 
 

@@ -15,9 +15,19 @@ package sda.testing;
 public class StringCalculator {
 
     public int add(String numbers) {
+        int result = 0;
         if(numbers.equals("")) {
             return 0;
         }
-        return Integer.parseInt(numbers);
+
+        String[] numbersDivided = numbers.split(",");
+
+        for (String givenNumber : numbersDivided) {
+            if (Integer.parseInt(givenNumber) >= 1000) {
+                throw new IllegalArgumentException("Too Big Number");
+            }
+            result += Integer.parseInt(givenNumber);
+        }
+        return result;
     }
 }
