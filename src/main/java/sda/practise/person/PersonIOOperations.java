@@ -50,10 +50,15 @@ public class PersonIOOperations {
     public Person readFromSerializedStream(String filename) {
         Person person;
 
-        try (FileInputStream fis = new FileInputStream(filename)) {
-            ObjectInputStream ois = new ObjectInputStream(fis);
+        try (FileInputStream fis = new FileInputStream(filename);
+            ObjectInputStream ois = new ObjectInputStream(fis)
+        ) {
             person = (Person) ois.readObject();
-            ois.close();
+
+            //dodanie ois do try-with-resources - czyli do definicji w nawiasie okrągłym
+            //w bloku try() powoduje że JVM sam będzie zamykał strumienie, w naszym przypadku ois i fis
+            //UWAGA - działa tylko na klasach które implementują jeden z 2 interfejsów: Closeable lub AutoCloseable
+            //ois.close();
 
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
