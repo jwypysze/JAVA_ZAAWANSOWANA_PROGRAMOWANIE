@@ -28,15 +28,9 @@ public class Bear extends Toy implements ToyInfo{
         return isDirty;
     }
 
-    @Override
+
     public String toyInfo() {
-        return new StringBuilder("Zabawka: ")
-                .append(TypesOfToys.BEAR.getPolishTranslate())
-                .append(" ")
-                .append(", minimalny wiek: ")
-                .append(getMinimumAge())
-                .append(", cena: ")
-                .append(getPrice())
+        return new StringBuilder(super.toyInfo())
                 .append(", rozmiar: ")
                 .append(getSize())
                 .append(", kolor: ")
@@ -45,4 +39,6 @@ public class Bear extends Toy implements ToyInfo{
                 .append(isDirty())
                 .toString();
     }
+
+
 }

@@ -21,13 +21,7 @@ public class Car extends Toy implements ToyInfo{
 
     @Override
     public String toyInfo(){
-        return new StringBuilder("Zabawka: ")
-                .append(TypesOfToys.CAR.getPolishTranslate())
-                .append(" ")
-                .append(", minimalny wiek: ")
-                .append(getMinimumAge())
-                .append(", cena: ")
-                .append(getPrice())
+        return new StringBuilder(super.toyInfo())
                 .append(", model: ")
                 .append(getModel())
                 .append(", kolor: ")

@@ -17,13 +17,7 @@ public class Doll extends Toy implements ToyInfo{
     }
     @Override
     public String toyInfo(){
-        return new StringBuilder("Zabawka: ")
-                .append(TypesOfToys.DOLL.getPolishTranslate())
-                .append(" ")
-                .append(", minimalny wiek: ")
-                .append(getMinimumAge())
-                .append(", cena: ")
-                .append(getPrice())
+        return new StringBuilder(super.toyInfo())
                 .append(", liczba sukienek w zestawie: ")
                 .append(getNumberOfDresses())
                 .append(", kolor włosów: ")

@@ -52,6 +52,6 @@ public class Demo {
                 .reduce(0,(wartoscBieżąca, kolejnyElement) -> wartoscBieżąca + kolejnyElement);
         System.out.println(sumOfDollsPrices);
 
-        System.out.println("\n");
+
     }
 }

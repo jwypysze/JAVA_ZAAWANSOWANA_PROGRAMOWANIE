@@ -27,13 +27,7 @@ public class Brick extends Toy implements ToyInfo{
 
     @Override
     public String toyInfo(){
-        return new StringBuilder("Zabawka: ")
-                .append(TypesOfToys.BRICK.getPolishTranslate())
-                .append(" ")
-                .append(", minimalny wiek: ")
-                .append(getMinimumAge())
-                .append(", cena: ")
-                .append(getPrice())
+        return new StringBuilder(super.toyInfo())
                 .append(", rozmiar: ")
                 .append(getSize())
                 .append(", kolor: ")
