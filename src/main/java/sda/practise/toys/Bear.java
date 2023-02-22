@@ -6,6 +6,7 @@ public class Bear extends Toy implements ToyInfo{
     private String colour;
     private boolean isDirty;
 
+
     public Bear(TypesOfToys name, int minimumAge, int price, String size, String colour, boolean isDirty) {
         super(name, minimumAge, price);
         this.size = size;
